@@ -1,6 +1,5 @@
     #toc {
         position: relative;
-        margin-top: -24px;
     }
 
     #table-of-contents {
@@ -8,11 +7,10 @@
         margin: 0 auto;
         max-width: 696px;
         background-color: #fff;
-        padding: 16px;
-        border-radius: 16px;
 /*         border: 1px solid #ebebeb; */
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
         font-family: 'Manrope', sans-serif;
+        width: 100%;
     }
     
     @media screen and (max-width: 959px) {
@@ -34,8 +32,8 @@
         font-size: 18px;
         line-height: 24px;
         font-weight: 600;
-        color: #262626;
-        font-family:'Unbounded', serif;
+        color: #000;
+        font-family:'Manrope', serif;
     }
 
     #table-of-contents ul {
@@ -53,7 +51,7 @@
 
     #table-of-contents a {
         text-decoration: none;
-        color: #262626;
+        color: #000;
         transition: color 0.3s ease, opacity 0.3s ease;
         font-family: 'Manrope', sans-serif;
         font-weight: 400;
